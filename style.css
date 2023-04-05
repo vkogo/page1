@@ -1,0 +1,107 @@
+  body {
+          background-image: url('./img/bg.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+body {
+    font-family: "Lato", sans-serif;
+}
+body
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 8px 21px 5px 47px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+}
+
+#loginText h2{
+    color: #818181;
+   left: 10;
+   padding: 8px 21px 5px 18px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.navItem {
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.navItemLink .icon {
+    position: absolute;
+    right: 182px;
+    top: 13px;
+    width: 28px;
+}
+
+
+.navItemTodo .todo {
+    position: absolute;
+    right: 182px;
+    top: 76px;
+    width: 24px;
+    margin: 1px;
+}
+
+.navItemManage .manage{
+    position: absolute;
+    right: 182px;
+    top: 183px;
+    width: 24px;
+    margin: 1px;
+}
+.navItemAdd .add{
+    position: absolute;
+    right: 182px;
+    top: 216px;
+    width: 24px;
+    margin: 1px;   
+}
+
+.navItemLearn .learn{
+    position: absolute;
+    right: 182px;
+    top: 249px;
+    width: 24px;
+    margin: 1px;  
+}
+
+ .out{
+    position: absolute;
+    right: 11px;
+    top: 671px;
+    width: 21px;
+    margin: 1px;
+    background-color: none;
+}
